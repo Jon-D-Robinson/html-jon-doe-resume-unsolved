@@ -138,7 +138,7 @@ test.describe("HTML Structure Validation", () => {
         }
       });
 
-      test("HTML element has exactly two children (HEAD and BODY)", async () => {
+      test ("HTML element has exactly two children (HEAD and BODY)", async () => {
         if (!htmlContent) return;
 
         const root = parse(htmlContent);
